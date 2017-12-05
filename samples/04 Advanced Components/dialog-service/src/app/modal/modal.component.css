@@ -1,0 +1,26 @@
+:host {
+  display: none;
+  border: 1px solid black;
+}
+
+:host(.visible) {
+  display: block;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  align-content: center;
+  padding: 2px;
+}
+
+.title .close-button {
+  margin-left: auto;
+  background-color: yellow;
+  color: black;
+  padding: 0px 3px;
+  cursor: pointer;
+}
+

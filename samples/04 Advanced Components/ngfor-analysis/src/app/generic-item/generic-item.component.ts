@@ -19,7 +19,7 @@ export class GenericItemComponent implements OnInit {
   }
 
   ngOnChanges() {
-    
+
     const componentType = this.convertItemToComponentType(this.item);
     const componentFactory = this.cfr.resolveComponentFactory(componentType);
     const componentRef = this.marker.createComponent(componentFactory);
