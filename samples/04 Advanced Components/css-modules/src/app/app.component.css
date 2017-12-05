@@ -1,0 +1,9 @@
+app-root {
+  display: block;
+  background-color: blue;
+  padding: 1em;
+}
+
+button {
+  background-color: red;
+}

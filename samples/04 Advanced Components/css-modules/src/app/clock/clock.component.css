@@ -1,0 +1,12 @@
+:host{
+  display: block;
+  background-color: yellow;
+}
+
+.large {
+  font-size: 2em;
+}
+
+button {
+  font-size: inherit;
+}

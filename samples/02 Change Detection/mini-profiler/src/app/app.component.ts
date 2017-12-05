@@ -7,12 +7,15 @@ import {Profile} from './decorators';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  constructor(){
+
+  }
+
   run(){
 
   }
 
   @Profile()
-  X()
   long() {
     const before = performance.now();
     while(true){
