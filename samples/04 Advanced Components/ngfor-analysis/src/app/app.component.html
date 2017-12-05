@@ -1,0 +1,13 @@
+<h1>My App</h1>
+
+<div>
+  <button (click)="refresh()">Refresh</button>
+</div>
+
+<ul>
+  <li *ngFor="let item of contacts; trackBy: trackFn">
+    <app-generic-item [item]="item" [convertItemToComponentType]="convertItemToComponentType"></app-generic-item>
+    <!--<app-contact-item *ngIf="isContact(item)" [contact]="item"></app-contact-item>-->
+    <!--<app-group-item *ngIf="isGroup(item)" [group]="item"></app-group-item>-->
+  </li>
+</ul>
