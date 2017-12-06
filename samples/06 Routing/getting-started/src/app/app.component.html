@@ -1,0 +1,9 @@
+<div class="site-menu">
+  <a routerLink="">Home</a>
+  <a routerLink="about">About</a>
+  <a [routerLink]="['contact', 123, {name: 'Ori'}]">Contact</a>
+  <a routerLink="admin">Admin</a>
+</div>
+
+<router-outlet></router-outlet>
+

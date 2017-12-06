@@ -1,0 +1,25 @@
+<h1>My App</h1>
+
+<input ngModel #myModel="ngModel">
+
+<div [appMyClass]="options"></div>
+
+<button (click)="inject()">Inject Template</button>
+
+<ng-template #myTemplate>
+  <button (click)="yoyo()">Yo yo</button>
+  <h1>My Template</h1>
+</ng-template>
+
+
+<div #marker></div>
+
+<app-clock appMyTooltip></app-clock>
+
+<div *ngFor="let x of arr"></div>
+
+<!--<div *myFor="let x in arr;"></div>-->
+
+<!--<ul>-->
+  <!--<li *ngFor="let contact of contacts; let i=index;"></li>-->
+<!--</ul>-->

@@ -1,0 +1,8 @@
+<h1>My App</h1>
+
+<ul>
+  <li *ngFor="let contact of state.contacts; trackBy: trackByFn">
+    <app-contact-item [contact]="contact"></app-contact-item>
+  </li>
+</ul>
+
