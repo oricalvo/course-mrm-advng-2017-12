@@ -7,7 +7,7 @@ export class ModalService {
 
   constructor() { }
 
-  show<T>(componentType: Type<T>) {
+  show<T>(componentType: Type<T>): T {
     return this.component.show(componentType);
   }
 
